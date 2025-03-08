@@ -1,0 +1,27 @@
+1) Mention about problem statement
+2) Talk about columns
+3) Install the modules and required libraries
+4) Load dataset
+5) Understand your data
+6) EDA:
+	i)univariate analysis
+	ii)Bi-variate analysis
+	iii)multi-variate analysis
+7) Check the null values or missing values
+	i)Treating null values(fill with mean or median or mode)
+	ii)drop null values if they are less than 5%-10%
+8) check the duplicates
+	i)Drop duplicates
+9) Treating the outliers
+	i)check the outliers
+	ii)remove the outliers
+	iii)make the box plot before and after outliers
+10) Fearture engineering
+	a)
+	i)extract the features
+	ii)create the features
+	iii)select the features
+	b)
+	i)checking the multicoliniarity
+	i)heat map
+	ii)vif techinques
