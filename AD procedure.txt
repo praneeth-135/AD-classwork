@@ -1,0 +1,85 @@
+##1) mention about problem statement
+##2) talk about columns
+##3)install the modules and required libraries
+##4)Load data set
+##5)understand your data
+##6)EDA
+## i)univariate analysis
+##  ii)Bi-variate analysis
+##  iii)Multivarivate analysis
+## 7)check the null-values or missing values
+## i)treating the null values(fill with mean or median or mode)
+## ii)drop null values if they are less than 5%-10%
+##8)check the duplicates
+## i)drop duplicates
+##9)treating the ouliers
+## i)check the outliers 
+## ii)remove outliers
+## iii)make the box plot before and after the outliers
+##10)Feature engineering
+## a)i)extract the features
+##  ii)create the features
+##  iii)select the features
+## b)checking the multicoliniarity
+## i)heat map
+## ii)vif technique
+## c)transformation
+## i)one hot encoding or label encoding
+## d)scaling(min_max_scalar)
+## 11)X-y features split
+## 12)train test split
+
+
+### for classification
+1)apply smote technique
+2)build the models
+  i)logistic regression
+  ii)decision tree
+  iii)Random forest
+  iV)gradient boost
+  v)ada boost
+  vi)knn
+  vii)svm
+  viii)naive bayes
+3)Hyper parameter tuning
+ i)cross validation
+4)deploy the best model in streamlit or flask
+
+
+#### for regression
+1)apply models
+ i)linear regression
+ ii)decision tree
+ iii)random forest
+ iv)gradient boost
+  v)knn
+  vi)svm
+
+2)Hyper parameter tuning
+ i)cross validation
+3)deploy the best model in streamlit or flask
+
+#### clustering
+1)apply the models
+  i)k-means
+  ii)DBSCAN
+  iii)Hierachical
+2)Evaluating Clusters (Silhouette Score, Davies-Bouldin Index, etc.)
+3)Hyperparameter Tuning (Optimizing Number of Clusters, etc.)
+
+4)deploy the best model in streamlit or flask
+
+
+### for recommendation engine
+Steps for Building a Recommendation Engine:
+1.	Loading Data
+2.	Data Preprocessing
+3.	Exploratory Data Analysis (EDA)
+4.	Feature Engineering
+5.	Choosing a Recommendation Approach (Collaborative Filtering, Content-Based, Hybrid, etc.)
+6.	Building the Recommendation Model
+7.	Training the Model
+8.	Evaluating the Model (Precision, Recall, RMSE, etc.)
+9.	Hyperparameter Tuning
+10.	Selecting the Best Model
+11.	Model Deployment
